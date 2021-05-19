@@ -18,7 +18,7 @@
         </div>
         <ul class="nav-links">
             <li><a href="#home">Home</a> </li>
-            <li><a href="#gelery">Gallery</a></li>
+            <li><a href="#Galery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -31,61 +31,100 @@
             <img src="/img/rock1.png" alt="">
         </div>
     </section>
+
+    <!-- SLIDER TEST -->
+    <section>
+        <div class="slider-container">
+           <!--image slider start-->
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="/img/1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="/img/2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="/img/3.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="/img/4.jpg" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+        </div>
+    </section>
     <!-------GALERY--------------------------------------------------->
     <section>
         <div class="grid-container">
 
-    <div class="grid__item"
-    style="background-image: url('/img/canada.jpg');">
-    </div>
+            <div class="grid__item" style="background-image: url('/img/canada.jpg');">
+            </div>
 
-    <div class="grid__item"
-    style="background-image: url('/img/tokyo-card.jpg');">
-    </div>
+            <div id="Galery" class="grid__item" style="background-image: url('/img/tokyo-card.jpg');">
+            </div>
 
-    <div class="grid__item"
-    style="background-image: url('/img/new-zeland.jpg');">
-    </div>
-    
-    <div class="grid__item"
-    style="background-image: url('/img/londres.jpg');">
-    </div>
+            <div class="grid__item" style="background-image: url('/img/new-zeland.jpg');">
+            </div>
 
-    <div class="grid__item"
-    style="background-image: url('/img/New_york_times_square-terabass.jpg');">
-    </div>
-    <div class="grid__item"
-    style="background-image: url('/img/rivers.jpg');">
-    </div>
+            <div class="grid__item" style="background-image: url('/img/londres.jpg');">
+            </div>
 
-    <div class="grid__item"
-    style="background-image: url('/img/canada.jpg');">
-    </div>
+            <div class="grid__item" style="background-image: url('/img/New_york_times_square-terabass.jpg');">
+            </div>
+            <div class="grid__item" style="background-image: url('/img/rivers.jpg');">
+            </div>
 
-    <div class="grid__item"
-    style="background-image: url('/img/panda.jpg');">
-    </div>
+            <div class="grid__item" style="background-image: url('/img/canada.jpg');">
+            </div>
 
-    <div class="grid__item"
-    style="background-image: url('/img/rivers.jpg');">
-    </div>
-    
-    <div class="grid__item"
-    style="background-image: url('/img/UK.jpg');">
-    </div>
+            <div class="grid__item" style="background-image: url('/img/panda.jpg');">
+            </div>
 
-    <div class="grid__item"
-    style="background-image: url('/img/unitedK.jpg');">
-    </div>
+            <div class="grid__item" style="background-image: url('/img/rivers.jpg');">
+            </div>
 
-    <div class="grid__item"
-    style="background-image: url('/img/tokyonigth.jpg');">
-    </div>
-    
-    
-    
+            <div class="grid__item" style="background-image: url('/img/UK.jpg');">
+            </div>
+
+            <div class="grid__item" style="background-image: url('/img/unitedK.jpg');">
+            </div>
+
+            <div class="grid__item" style="background-image: url('/img/tokyonigth.jpg');">
+            </div>
+            <!-- LIGTH BOX EFFECT? -->
     </section>
-    
+    <!-- CONTACT---------------------------------------->
+    <!-- FOOTER --------------------------------------->
+    <footer>
+        <p>Created By Johan Velandia</p>
+    </footer>
+
 </body>
 <!-- Scripts -->
 </script>
@@ -95,5 +134,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
 <script src="./script.js"></script>
+<script src="./carrousel.js"></script>
 
 </html>
